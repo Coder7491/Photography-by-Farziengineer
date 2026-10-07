@@ -65,63 +65,63 @@ function initNavbar() {
    ========================================================================== */
 const galleryData = [
   {
-    src: 'images/hero.jpg',
+    src: 'hero.jpg',
     tag: 'Udaipur Palace',
     title: 'Kabir & Ananya',
     desc: 'Royal courtyard vows bathed in thousands of glowing candles and golden palace lanterns.',
     category: 'vows'
   },
   {
-    src: 'images/bride.jpg',
+    src: 'bride.jpg',
     tag: 'Bridal Candid',
     title: 'Tears of Pure Joy',
     desc: "Simran's quiet emotional moment during the family blessings, preserved with unobtrusive sensitivity.",
     category: 'portraits'
   },
   {
-    src: 'images/haldi.jpg',
+    src: 'haldi.jpg',
     tag: 'Haldi Ceremony',
     title: 'The Marigold Splash',
     desc: 'Explosive laughter, flying turmeric flower petals, and unfiltered family euphoria in sunlit gardens.',
     category: 'haldi'
   },
   {
-    src: 'images/prewedding.jpg',
+    src: 'prewedding.jpg',
     tag: 'Pre-Wedding',
     title: 'Sunset by the Pavilion',
     desc: 'Golden hour sunburst casting cinematic silhouettes on the tranquil marble waters of Lake Pichola.',
     category: 'prewedding'
   },
   {
-    src: 'images/sangeet.jpg',
+    src: 'sangeet.jpg',
     tag: 'Sangeet Night',
     title: 'Dancing in Cold Pyros',
     desc: 'Electric dance floor energy, sparkling cold fire, and 500 guests roaring with celebratory rhythm.',
     category: 'haldi'
   },
   {
-    src: 'images/varmala.jpg',
+    src: 'varmala.jpg',
     tag: 'The Big Day',
     title: 'The Grand Varmala',
     desc: 'Showering thousand fresh red rose petals under royal spotlights in the heritage palace ballroom.',
     category: 'vows'
   },
   {
-    src: 'images/groom.jpg',
+    src: 'groom.jpg',
     tag: 'Groom Editorial',
     title: 'The Royal Groom',
     desc: 'Ivory zardozi sherwani, emerald kalgi brooch, and the regal solemn poise of an ancient royal fort.',
     category: 'portraits'
   },
   {
-    src: 'images/mandap.jpg',
+    src: 'mandap.jpg',
     tag: 'Destination Decor',
     title: 'Fairytale Lake Mandap',
     desc: 'Overlooking serene waters, glowing floral chandeliers, and twilight vows in Udaipur.',
     category: 'decor'
   },
   {
-    src: 'images/details.jpg',
+    src: 'details.jpg',
     tag: 'Macro Details',
     title: 'Heirloom Elegance',
     desc: 'Fine art macro shot capturing intricate bridal henna, fresh jasmine blooms, and the diamond solitaire.',

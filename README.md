@@ -50,36 +50,35 @@ A luxury, high-conversion wedding photography & cinema portfolio website built s
 
 ```
 e:\photography by farzi engineer\
-├── index.html          # Main HTML5 structure with SEO metadata & rich sections
+├── index.html          # Main HTML5 structure with SEO metadata & luxury sections
 ├── style.css           # Luxury CSS styling system with animations & mobile responsiveness
 ├── script.js           # Interactive gallery filter, lightbox, calculator, and WhatsApp engine
-├── open_website.bat    # 1-Click desktop launcher to open website in your browser
-├── run_server.bat      # 1-Click launcher to run local HTTP server on http://localhost:8080/
-├── server.ps1          # Lightweight native PowerShell HTTP server
+├── open_website.bat    # 1-Click launcher: auto-starts local server & opens website in browser
+├── server.ps1          # Lightweight native PowerShell HTTP server (port 8080)
 ├── README.md           # Documentation & guide
-└── images/             # Ultra high-resolution generated wedding assets:
-    ├── hero.jpg        # Palace courtyard royal couple hero shot
-    ├── about.jpg       # Farzi Engineer photographer bio portrait
-    ├── bride.jpg       # Emotional candid bridal tears of joy portrait
-    ├── groom.jpg       # Regal groom in fort with ivory sherwani & sword
-    ├── varmala.jpg     # Royal stage varmala garland & rose petal shower
-    ├── haldi.jpg       # Joyful vibrant marigold haldi ceremony
-    ├── sangeet.jpg     # Sangeet dance night with cold fireworks & sparklers
-    ├── prewedding.jpg  # Lake palace golden hour sunset couple shoot
-    ├── mandap.jpg      # Fairytale lake-view illuminated mandap setup
-    └── details.jpg     # Fine-art macro bridal ring & henna mehendi
+├── logo.png / logo.jpg # Brand logo assets
+├── hero.jpg            # Palace courtyard royal couple hero shot
+├── about.jpg           # Farzi Engineer photographer bio portrait
+├── bride.jpg           # Emotional candid bridal tears of joy portrait
+├── groom.jpg           # Regal groom in fort with ivory sherwani & sword
+├── varmala.jpg         # Royal stage varmala garland & rose petal shower
+├── haldi.jpg           # Joyful vibrant marigold haldi ceremony
+├── sangeet.jpg         # Sangeet dance night with cold fireworks & sparklers
+├── prewedding.jpg      # Lake palace golden hour sunset couple shoot
+├── mandap.jpg          # Fairytale lake-view illuminated mandap setup
+└── details.jpg         # Fine-art macro bridal ring & henna mehendi
 ```
 
 ---
 
 ## 🚀 How to Run the Website
 
-### Method 1: Instant Browser View (Easiest)
-Simply double-click `open_website.bat` or double-click `index.html` to open in any browser (Chrome, Edge, Firefox, Brave, Safari).
-
-### Method 2: Local HTTP Web Server
-Double-click `run_server.bat`. It will start a local server at:
+### 1-Click Launch (Recommended)
+Simply double-click `open_website.bat`!
+It automatically starts the local HTTP server in the background and opens the website in your default browser at:
 👉 **http://localhost:8080/**
+
+Or double-click `index.html` to view directly.
 
 ---
 
