@@ -12,7 +12,7 @@ try {
     Write-Host " PHOTOGRAPHY BY FARZI ENGINEER - LOCAL WEB SERVER RUNNING " -ForegroundColor DarkYellow
     Write-Host "==========================================================" -ForegroundColor Yellow
     Write-Host " URL: http://localhost:$port/ " -ForegroundColor Cyan
-    Write-Host " Phone: 7491800797 | Email: farziengineer1.0@gmail.com " -ForegroundColor White
+    Write-Host " Founder: 7491800797 | Co-Founder (Abhimanyu): 8709270084 | Email: farziengineer1.0@gmail.com " -ForegroundColor White
     Write-Host " Press Ctrl+C in this window to stop the server." -ForegroundColor Gray
     Write-Host ""
     

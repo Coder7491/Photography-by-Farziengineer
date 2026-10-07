@@ -1,7 +1,10 @@
 /**
  * PHOTOGRAPHY BY FARZI ENGINEER
  * Interactive Engine: Gallery, Lightbox, Price Calculator, WhatsApp Engine
- * Contact: +91 7491800797 | farziengineer1.0@gmail.com
+ * Contacts:
+ * - Farzi Engineer (Founder): +91 7491800797
+ * - Abhimanyu Kumar (Co-Founder): +91 8709270084
+ * Email: farziengineer1.0@gmail.com
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -263,6 +266,7 @@ function initCalculator() {
   const sdeCheckbox = document.getElementById('addon-sde');
   const totalDisplay = document.getElementById('summary-total-display');
   const calcWhatsAppBtn = document.getElementById('btn-calc-whatsapp');
+  const calcWhatsAppCoBtn = document.getElementById('btn-calc-whatsapp-co');
 
   const baseRates = {
     '1': 60000,
@@ -298,8 +302,8 @@ function initCalculator() {
     const grandTotal = base + addonsCost;
     totalDisplay.textContent = `₹${grandTotal.toLocaleString('en-IN')}`;
 
-    // Update WhatsApp Button Link
-    const waMessage = encodeURIComponent(
+    // WhatsApp Message - Founder Farzi Engineer
+    const waMessageFarzi = encodeURIComponent(
       `Hello Farzi Engineer! 📸\n\n` +
       `I used your Website Custom Package Calculator:\n` +
       `• Event Days: ${selectedDays} Days\n` +
@@ -308,9 +312,27 @@ function initCalculator() {
       `Can you please confirm your date availability and share detailed deliverables?`
     );
 
-    calcWhatsAppBtn.onclick = () => {
-      window.open(`https://wa.me/917491800797?text=${waMessage}`, '_blank');
-    };
+    if (calcWhatsAppBtn) {
+      calcWhatsAppBtn.onclick = () => {
+        window.open(`https://wa.me/917491800797?text=${waMessageFarzi}`, '_blank');
+      };
+    }
+
+    // WhatsApp Message - Co-Founder Abhimanyu Kumar
+    const waMessageAbhimanyu = encodeURIComponent(
+      `Hello Abhimanyu! (Co-Founder, Farzi Engineer) 🎬\n\n` +
+      `I used your Website Custom Package Calculator:\n` +
+      `• Event Days: ${selectedDays} Days\n` +
+      `• Selected Add-ons: ${selectedAddonList.length > 0 ? selectedAddonList.join(', ') : 'None'}\n` +
+      `• Estimated Investment: ₹${grandTotal.toLocaleString('en-IN')}\n\n` +
+      `Can you please confirm your cinematography & photography crew availability for my wedding dates?`
+    );
+
+    if (calcWhatsAppCoBtn) {
+      calcWhatsAppCoBtn.onclick = () => {
+        window.open(`https://wa.me/918709270084?text=${waMessageAbhimanyu}`, '_blank');
+      };
+    }
   }
 
   dayBtns.forEach(btn => {
@@ -375,6 +397,39 @@ function initEnquiryForm() {
       window.open(`https://wa.me/917491800797?text=${waText}`, '_blank');
     }, 400);
   });
+
+  // Handle WhatsApp Submission to Co-Founder Abhimanyu Kumar
+  const btnAbhimanyu = document.getElementById('btn-submit-abhimanyu');
+  if (btnAbhimanyu) {
+    btnAbhimanyu.addEventListener('click', () => {
+      if (!form.reportValidity()) return;
+
+      const names = document.getElementById('couple-names').value.trim();
+      const phone = document.getElementById('contact-phone').value.trim();
+      const email = document.getElementById('contact-email').value.trim();
+      const date = document.getElementById('wedding-date').value;
+      const city = document.getElementById('wedding-city').value.trim();
+      const eventType = document.getElementById('event-type').value;
+      const message = document.getElementById('wedding-message').value.trim();
+
+      const waTextCo = encodeURIComponent(
+        `✨ NEW WEDDING INQUIRY FOR CO-FOUNDER ABHIMANYU KUMAR ✨\n\n` +
+        `👤 Couple: ${names}\n` +
+        `📞 Phone: ${phone}\n` +
+        `📧 Email: ${email}\n` +
+        `📅 Wedding Date: ${date}\n` +
+        `📍 City/Venue: ${city}\n` +
+        `💍 Coverage: ${eventType}\n` +
+        `📝 Vision: ${message || 'Looking forward to discussing our wedding film!'}\n\n` +
+        `Please confirm your cinematography & photography availability!`
+      );
+
+      successBanner.style.display = 'flex';
+      setTimeout(() => {
+        window.open(`https://wa.me/918709270084?text=${waTextCo}`, '_blank');
+      }, 400);
+    });
+  }
 
   // Handle Email Submission fallback
   if (btnEmail) {
@@ -602,7 +657,7 @@ function initScrollAnimations() {
    10. 3D INTERACTIVE CARD TILT
    ========================================================================== */
 function initCardTilt() {
-  const tiltCards = document.querySelectorAll('.portfolio-card, .film-card, .service-box, .package-card, .review-card, .step-card, .addon-card');
+  const tiltCards = document.querySelectorAll('.portfolio-card, .film-card, .service-box, .package-card, .review-card, .step-card, .addon-card, .founder-card');
 
   tiltCards.forEach(card => {
     card.classList.add('tilt-card');

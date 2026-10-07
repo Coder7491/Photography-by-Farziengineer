@@ -17,7 +17,8 @@ echo Opening website in your default browser...
 start "" "http://localhost:8080/"
 echo.
 echo Website is LIVE at http://localhost:8080/
-echo Contact: +91 7491800797
+echo Founder: +91 7491800797
+echo Co-Founder (Abhimanyu): +91 8709270084
 echo Email: farziengineer1.0@gmail.com
 echo.
 timeout /t 3 >nul

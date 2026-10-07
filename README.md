@@ -32,17 +32,17 @@ A luxury, high-conversion wedding photography & cinema portfolio website built s
 6. **Interactive Custom Wedding Package Calculator**:
    - Real-time dynamic investment estimator.
    - Adjust event days (1, 2, 3, or 4+ days) and toggle add-ons (Pre-wedding, 4K Drone, Leather Album, Same-Day Edit).
-   - **1-Click WhatsApp Quote Lock**: Automatically creates a pre-formatted WhatsApp message with the exact selected options sent to **+91 7491800797**!
+   - **1-Click WhatsApp Quote Lock**: Automatically creates a pre-formatted WhatsApp message sent directly to **+91 7491800797** (Founder) or **+91 8709270084** (Co-Founder Abhimanyu Kumar)!
 
 7. **Date Availability & Direct Booking Form**:
    - Couple name, phone, email, date picker, city/venue, and custom notes.
-   - Dual actions: **Send Instant Enquiry via WhatsApp** and **Send via Email**.
+   - Multi-actions: **Send WhatsApp to Farzi Engineer**, **Send WhatsApp to Co-Founder Abhimanyu**, and **Send via Email**.
 
-8. **Direct Contact Integrations**:
-   - **Phone**: `+91 7491800797`
+8. **Leadership & Direct Contact Integrations**:
+   - **Founder (Farzi Engineer)**: `+91 7491800797`
+   - **Co-Founder (Abhimanyu Kumar)**: `+91 8709270084`
    - **Email**: `farziengineer1.0@gmail.com`
-   - **WhatsApp Link**: Direct chat with pre-filled message.
-   - **Floating Quick Contact Action Bar** for instant thumb-friendly access on mobile devices.
+   - **Floating Quick Contact Action Bar** for instant 1-tap call & WhatsApp to both founders.
 
 ---
 
@@ -50,15 +50,16 @@ A luxury, high-conversion wedding photography & cinema portfolio website built s
 
 ```
 e:\photography by farzi engineer\
-├── index.html          # Main HTML5 structure with SEO metadata & luxury sections
+├── index.html          # Main HTML5 structure with SEO metadata, founders & luxury sections
 ├── style.css           # Luxury CSS styling system with animations & mobile responsiveness
-├── script.js           # Interactive gallery filter, lightbox, calculator, and WhatsApp engine
+├── script.js           # Interactive gallery filter, lightbox, calculator, and dual WhatsApp engine
 ├── open_website.bat    # 1-Click launcher: auto-starts local server & opens website in browser
 ├── server.ps1          # Lightweight native PowerShell HTTP server (port 8080)
 ├── README.md           # Documentation & guide
 ├── logo.png / logo.jpg # Brand logo assets
 ├── hero.jpg            # Palace courtyard royal couple hero shot
-├── about.jpg           # Farzi Engineer photographer bio portrait
+├── about.jpg           # Farzi Engineer founder bio portrait
+├── abhimanyu.jpg       # Abhimanyu Kumar co-founder bio portrait
 ├── bride.jpg           # Emotional candid bridal tears of joy portrait
 ├── groom.jpg           # Regal groom in fort with ivory sherwani & sword
 ├── varmala.jpg         # Royal stage varmala garland & rose petal shower
@@ -85,6 +86,7 @@ Or double-click `index.html` to view directly.
 ## 📞 Verified Contact Information on Website
 
 - **Brand Name**: Photography by Farzi Engineer
-- **Phone / WhatsApp**: `+91 7491800797`
+- **Founder (Farzi Engineer)**: `+91 7491800797`
+- **Co-Founder (Abhimanyu Kumar)**: `+91 8709270084`
 - **Email**: `farziengineer1.0@gmail.com`
 - **Location**: Pan-India & Worldwide Destination Weddings
